@@ -12,7 +12,6 @@
 import arcpy
 
 fc = r"C:\Emily\CDO26\Deliverables\UGA\FGCM_CDO26_TDS_v61_UGA_Ancillary_sub1\Imagery_Footprints\CDO26_UGA_20181206_Footprints.shp"
-##output = r"C:\Matt\FGCM\BAE\DO0031\Finishing_QA\RUS_B_6\Shapefiles\RUS_B_6_ImageryFootprints.shp"
 
 dates = []
 with arcpy.da.SearchCursor(fc, "Acquisitio") as sCursor:
